@@ -34,9 +34,8 @@ function addMessageToChat(sender, message) {
 
 function getChatbotResponse(userInput) {
     userInput = userInput.toLowerCase();
-	if (userInput.includes("Hellow") || userInput.includes("hy")) {
-        return " Welcome to my portfolio";
-					
+    if (userInput.includes("hello") || userInput.includes("hi")) {
+        return "Welcome to my portfolio!";
     }
 
     if (userInput.includes("skills") || userInput.includes("best at")) {
@@ -50,17 +49,18 @@ function getChatbotResponse(userInput) {
     if (userInput.includes("resume") || userInput.includes("cv")) {
         return "You can download my resume directly from this page or feel free to ask more questions about my experience!";
     }
-	if (userInput.includes("about") || userInput.includes("background")) {
-        return "Hi I'm Sipho Kupiso, a Software developer who creates HTML websites, CSS and JavaScript.  I'm interested in AI and i would like to create better project soon using AI";
-					
+
+    if (userInput.includes("about") || userInput.includes("background")) {
+        return "Hi I'm Sipho Kupiso, a Software developer who creates HTML websites, CSS and JavaScript. I'm interested in AI and I would like to create better projects soon using AI.";
     }
-	if (userInput.includes("contact") || userInput.includes("contact_me")) {
-        return "Contact : 073 561 0318 and email adress : zukisakups@gmail.com ";
-					
+
+    if (userInput.includes("contact")) {
+        return "Contact: 073 561 0318 and email address: zukisakups@gmail.com";
     }
-	if (userInput.includes("name") || userInput.includes("Name")) {
-        return "my is Sipo  Kupiso";
-					
+
+    if (userInput.includes("name")) {
+        return "My name is Sipho Kupiso.";
     }
+
     return "Sorry, I didn't quite understand that. Can you please ask something else?";
 }
