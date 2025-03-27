@@ -9,7 +9,6 @@ This portfolio was created using the following :
 - *JavaScript*: For interactive elements and enhanced user experience.
 - *Bootstrap*: For responsive design and layout.
 - *React*: For building the user interface as a single-page application.
-- *Figma*: For designing the UI/UX before development.
 - *Git*: For version control and collaboration.
 - *GitHub Pages*: For hosting the portfolio online.
 https://kupiso.github.io/
